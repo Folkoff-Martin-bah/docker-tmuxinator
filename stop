@@ -1,0 +1,5 @@
+#!/bin/bash
+$(boot2docker shellinit)
+tmux kill-session -t composetest
+docker-compose stop
+
